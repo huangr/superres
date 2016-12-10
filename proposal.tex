@@ -1,0 +1,81 @@
+\documentclass[10pt]{paper}
+\usepackage{bm,amsmath,graphicx,chngcntr,subfigure,amsfonts,multicol,fancyhdr, multicol}
+\usepackage[margin=1in]{geometry}
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\pagestyle{plain}
+\counterwithin{figure}{section}
+\pagenumbering{gobble}
+
+\numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+
+% \setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+\title{	
+\vspace{-7ex}
+6.867 Project Proposal: Super-Resolution \\ %
+}
+
+\author{
+Rick Huang, Akshay Ravikumar
+}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+For our final project, we would like to conduct research and better understand the problem of super-resolution. In general, in many situations, images are distorted in a manner that makes observations difficult. super-resolution describes a set of methods that allow for inferring the lost data from distorted images to generate images of sufficient quality.
+
+Many methods of super-resolution have been explored in recent studies. For example, Z. Wang et al applied deep learning to sparse models\footnote{\url{https://arxiv.org/pdf/1507.08905v4.pdf}}, generating a neural network that can extrapolate images to a higher dimension set of parameters. These deterministic methods for training a model have been common in the past, but our interests lie more in the uncertainty of such models.
+
+Hence, for more probabilistic methods, R. Hardie et al\footnote{\url{http://ecommons.udayton.edu/cgi/viewcontent.cgi?article=1015&context=ece_fac_pub}} uses a maximum a posteriori method to generate image registration parameters. This removes a few prior assumptions on the images, namely that they fit some fixated distribution through graphical analysis with possible Gaussian noise between data points. More significantly, C. Bishop et al\footnote{M. E. Tipping and C. M. Bishop, ``Bayesian image super-resolution,'' in Advances
+in Neural Information Processing Systems (NIPS), pp. 1303–1310,
+2002.}, in his paper ``Bayesian image super-resolution,'' describes the advantages in Bayesian approaches to infer the parameters in modern-day research done on image super-resolution.
+
+As a result, we'd like to try replicating the results from Ce Liu's paper A Bayesian Approach to Adaptive Video Super Resolution\footnote{\url{https://people.csail.mit.edu/celiu/pdfs/VideoSR.pdf}}, as these advances in Bayesian approaches to super-resolution are interesting to analyze and compare with more deterministic models, as they appear intuitively more accurate in avoiding the issue of fixation of image super-resolution on certain models, yet mathematically more complex in their training operations. However, we recognize that these models may take a large amount of computation power, and if necessary, we may revert back to a more deterministic deep learning solution to super-resolution and compare it against the results contained in this paper.
+
+\section{Subprojects and Deadlines}
+
+We have the following deadlines. As an outline, we plan on reading through existing literature on the problem, figuring out what method(s) to implement, performing the experimentation, and finally consolidating results. Specifically, when performing the experimentation, we are considering extracting image data from the open source libraries from the literature we have collected so far described above, and selecting one of the specific methods used in ``A Bayesian Approach to Adaptive Video Super Resolution'' to quantitatively assess accuracy of super-resolution, mainly comparisons between distorted images and their original sources.
+
+\begin{center}
+\begin{tabular}{c|c}
+Task & Deadline  \\ \hline
+Understanding existing literature & 11/18 \\
+Researching general Bayesian method(s) and choosing specific method(s) to implement & 11/22 \\
+Implement basic code interface for all possible method(s) & 11/25 \\
+Aggregate data from open source libraries & 11/28 \\
+Perform experimentation of chosen method(s) on datasets & 12/1 \\
+Finish experimentation and overall writeup & 12/13 \\
+\end{tabular}
+\end{center}
+
+\section{Distribution of Work}
+
+We plan on doing most of the work together. For example, we plan to split up understanding different papers on super-resolution, and aggregating our results by the 11/22 deadline to figure out the general methods and path we should take with our paper. We pick a backup model to Bayesian methods in case our Bayesian method has near-uniform probability distributions and updates, in which case our model might not perform optimally.
+
+For collecting the data, we plan to find a subset of open-source libraries to draw from by the 11/22 deadline and each be assigned certain libraries to aggregate data.
+
+In addition, we plan to work together to implement our basic interface and simple methods of solving the super-resolution problem. Once we've chosen what methods we plan to actually implement (probably around 1 - 2), we will split these up between us, helping each other our and pair programming as necessary. Experimentation will be done after we aggregate our data collected on 11/28, where both of us will separately perform experimentation to ensure that we have multiple data points on the results of the models we have produced.
+
+We also plan to split the overall writeup and analysis work evenly. For example, in the introduction, we will be responsible for reporting on the literature specifically assigned to each person for prior work, and we'll also each be responsible for our respective open-source libraries when describing the data used in our experimentation. In general, we'll be responsible for the respective sources we were assigned during the experimentation and research process in the writeup so that division of labor in the writeup will be equivalent.  
+
+\section{Difficulties}
+
+We hope that the papers provide enough theoretical backing that we have little trouble replicating their results. If this isn't the case, then implementing these methods will be  difficult. In particular, Ce Liu's paper is theoretically heavy, but hopefully there's enough detail that we can reconstruct the papers' approach. While the methods covered in the paper (Gaussian pyramids, Bayesian MAP,  iteratively reweighted least squares, regression, etc.) are common and well-documented methods, it might take some effort to understand the particular objective functions used in the paper, especially if crucial details are omitted. While the paper seems thorough, we acknowledge that this might be a challenge, and will make sure we have a good theoretical understanding of the algorithms before pursuing an implementation. Because this paper is highly cited, there should be adequate resources to help us understand the implementation.
+
+Luckily, creating a dataset for this problem is relatively simple, from extracting from online open-source libraries or even taking videos and manually decreasing resolution, though we acknowledge that the latter cannot be the sole source of data, given that our training set must contain images orders of magnitude larger than what can be done in a feasible amount of time. However, in general, data aggregation shouldn't be a problem. 
+
+Hopefully we don't have too much of a problem with computational resources. This will enable us to test our methods easily, giving us more time to debug and refine our approach. For example, in Z. Wang et al's paper, the training was performed with 12 CPU's and took on the order of one day. Similarly, the C++ implementation of Ce Liu's approach takes two hours on a heavy-duty machine. To mitigate this problem, we'll acquire more resources (i.e. AWS machines) and see if there's a simpler way to achieve a similar result, or lessen the amount of data aggregation we train on. 
+
+\end{document}
