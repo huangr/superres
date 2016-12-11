@@ -1,0 +1,12 @@
+The sources for our dataset is the following:
+
+Color pictures:
+
+Huang, Jia-Bin and Singh, Abhishek and Ahuja, Narendra. Single Image Super-Resolution from Transformed Self-Exemplars. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2015.
+
+Available https://github.com/jbhuang0604/SelfExSR and https://sites.google.com/site/jbhuang0604/publications/struct_sr.
+
+Grayscale pictures:
+
+Multi-Dimensional Signal Processing Research Group, available http://www.soe.ucsc.edu/~milanfar/software/sr-datasets.html.
+
