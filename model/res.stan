@@ -5,7 +5,8 @@ data {
   vector[M] y[K]; # the input images
   matrix[N, N] Zx; # covariance matrix (in terms of A and r)
   vector[2] v_bar;
-  vector[2] v[N];
+  vector[2] vi[N];
+  vector[2] vj[M];
   real beta; # noise 
 }
 
@@ -14,7 +15,6 @@ parameters {
   real theta[K];
   vector[2] s[K];
 }
-
 
 transformed parameters {
   matrix[2, 2] R[K];
@@ -38,7 +38,7 @@ transformed parameters {
   # define u
   for (k in 1:K) {
     for (j in 1:M) { 
-      u[k][j] = R[k]*(v[j] - v_bar) + v_bar + s[k];
+      u[k][j] = R[k]*(vj[j] - v_bar) + v_bar + s[k];
     }
   }
 
@@ -46,7 +46,7 @@ transformed parameters {
   for (k in 1:K) {
     for (j in 1:M) {
       for (i in 1:N) {
-        W_tilde[k][j][i] = exp(-squared_distance(v[i], u[k][j])/pow(gamma, 2));
+        W_tilde[k][j][i] = exp(-squared_distance(vi[i], u[k][j])/pow(gamma, 2));
       }
     }
   }
@@ -99,3 +99,4 @@ model {
   likelihood = likelihood + log(determinant(Zx)) - log(determinant(sigma)) - K*M*log(beta);
   likelihood = -0.5*likelihood;
 }
+
