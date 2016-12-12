@@ -1,7 +1,6 @@
 import pystan
 
-model_code = open("res.stan").read()
-fit = pystan.stan(model_code=model_code)
+fit = pystan.stan(file="res.stan")
 
 print fit
 
