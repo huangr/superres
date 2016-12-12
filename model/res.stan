@@ -29,10 +29,10 @@ transformed parameters {
 
   # define R, the rotation matrix
   for (i in 1:K) {
-    R[i][0][0]= cos(theta[i]);
-    R[i][0][1]= sin(theta[i]);
-    R[i][1][0]= -sin(theta[i]);
     R[i][1][1]= cos(theta[i]);
+    R[i][1][2]= sin(theta[i]);
+    R[i][2][1]= -sin(theta[i]);
+    R[i][2][2]= cos(theta[i]);
   }
  
   # define u
@@ -65,10 +65,12 @@ transformed parameters {
   for (k in 1:K) {
     for (j in 1:M) {
       for (i in 1:N) {
-        W[k][j][i] = W_tilde[k][j][i]/W_sum[j][j];
+        W[k][j][i] = W_tilde[k][j][i]/W_sum[k][j];
       }
     }
   }
+
+  print(W[1]);
 
   # define sigma_interm (used to find sigma)
   sigma_interm = rep_matrix(0, N, N);
@@ -79,6 +81,8 @@ transformed parameters {
   # define sigma
   sigma = inverse(inverse(Zx) + beta*sigma_interm); 
 
+  print(sigma);
+
   # define mu_imterm (used to find mu)
   mu_interm = rep_vector(0, N);
   for (k in 1:K) {
@@ -87,6 +91,8 @@ transformed parameters {
 
   # define mu
   mu = beta * sigma * mu_interm;
+
+  print(mu);
 }
 
 model {

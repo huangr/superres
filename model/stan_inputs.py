@@ -71,6 +71,8 @@ def define_variables(file_path, m, n, b):
 						y[index].append(img[center_coord[0] + i][(center_coord[1] + j)])
 
 				index = index + 1
+				if index == 2:
+					break
 	else:
 		print file_path, 'is not a directory.'
 		return
@@ -106,6 +108,13 @@ def define_variables(file_path, m, n, b):
 		'vj': vj,
 		'beta': beta
 	}
+
+	inputs = {
+	 	'gamma': 4.0,
+	 	'theta': [1.0]*K,
+	 	's': [[1.0, 1.0] for i in range(K)]
+	}
+
 	os.chdir(original_location)
 
-	return data
+	return data, inputs
