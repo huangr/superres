@@ -94,15 +94,16 @@ def define_variables(file_path, m, n, b):
 	print "All variables have been generated! :)"
 
 	data = {
-		'K': K
-		'M': M
-		'N': N 
-		'y': y 
-		'Zx': Zx 
-		'v_bar': v_bar
-		'vi': vi 
-		'vj': vj
+		'K': K,
+		'M': M,
+		'N': N,
+		'y': y,
+		'Zx': Zx, 
+		'v_bar': v_bar,
+		'vi': vi, 
+		'vj': vj,
 		'beta': beta
 	}
+	os.chdir(original_location)
 
 	return data
