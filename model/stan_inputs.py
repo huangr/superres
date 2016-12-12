@@ -43,8 +43,8 @@ def define_variables(file_path, m, n, b):
 	original_location = os.getcwd()
 
 	# Generate the constants
-	M = m
-	N = n
+	M = m**2
+	N = n**2
 	beta = b
 	y = []
 	Zx = [[None for i in range(N)] for j in range(N)]
@@ -82,9 +82,9 @@ def define_variables(file_path, m, n, b):
 	print "We have used", K, "images."
 
 	for i in range(N):
-		vi[i] = [(i/N)/(float(N)-1.0), (i % N)/(float(N)-1.0)]
+		vi[i] = [(i/math.sqrt(N))/(float(math.sqrt(N))-1.0), (i % N)/(float(math.sqrt(N))-1.0)]
 	for i in range(M):
-		vj[i] = [(i/M)/(float(M)-1.0), (i % M)/(float(M)-1.0)]
+		vj[i] = [(i/math.sqrt(M))/(float(math.sqrt(M))-1.0), (i % M)/(float(math.sqrt(M))-1.0)]
 	v_bar = (0.5, 0.5)
 
 	for i in range(N):
@@ -92,6 +92,8 @@ def define_variables(file_path, m, n, b):
 			Zx[i][j] = 0.04 * math.exp(-np.linalg.norm(np.subtract(np.array(vi[i]), np.array(vi[j])))**2)
 	
 	print "All variables have been generated! :)"
+
+
 
 	data = {
 		'K': K,

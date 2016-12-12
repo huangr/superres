@@ -1,0 +1,686 @@
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Exception thrown at line 32: []: accessing element out of range. index 0 out of range; expecting index to be between 1 and 2; index position = 2R
+If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+
+Rejecting initial value:
+  Error evaluating the log probability at the initial value.
+
+
+
+Initialization between (-2, 2) failed after 100 attempts.
+ Try specifying initial values, reducing ranges of constrained values, or reparameterizing the model.
+
+
+rickh@dhcp-18-111-74-249:~/Dropbox/MIT/6.867/867_project/model
+$
