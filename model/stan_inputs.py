@@ -1,4 +1,36 @@
-import pystan
+import os
+import numpy as np 
+import scipy 
+from scipy import ndimage 
+from scipy import misc 
+import matplotlib.pyplot as plt
+import scipy.misc
+from skimage.measure import block_reduce
+from PIL import Image
+import skimage.io
+from pylab import *
+import itertools
+import math
+
+"""
+Here, we look at the following parameters and initialize them based off of images.
+
+data {
+  int <lower=0> K; # number of images
+  int <lower=0> M; # height/width of each image
+  int <lower=0> N; # number of pixels in superimage
+  vector[M] y[K]; # the input images
+  matrix[N, N] Zx; # covariance matrix (in terms of A and r)
+  vector[2] v_bar;
+  vector[2] vi[N];
+  vector[2] vj[M];
+  real beta; # noise 
+}
+
+We will consider an inner 15x15 center square, and we will extrapolate this by 2
+to form a 35x35 final image, and perform the mu transformations over all y.
+
+"""
 
 file_path = "/Users/rickh/Dropbox/MIT/6.867/867_project/datasets/grayscale/alpaca"
 
@@ -61,11 +93,16 @@ def define_variables(file_path, m, n, b):
 	
 	print "All variables have been generated! :)"
 
-	return (K, M, N, y, Zx, v_bar, vi, vj, beta)
+	data = {
+		'K': K
+		'M': M
+		'N': N 
+		'y': y 
+		'Zx': Zx 
+		'v_bar': v_bar
+		'vi': vi 
+		'vj': vj
+		'beta': beta
+	}
 
-define_variables(file_path, 15, 35, 400)
-
-fit = pystan.stan(file="res.stan")
-
-print fit
-
+	return data
