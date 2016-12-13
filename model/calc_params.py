@@ -109,7 +109,7 @@ def compute_sigma(m, n, K, gamma, theta, shift, beta):
 
 	# Turn into numpy matrices
 	Zx = np.matrix(Zx)
-	W = np.matrix(Zx)
+	W = np.array(W)
 
 	total_matrix = np.matrix([[0 for i in range(n*n)] for j in range(n*n)])
 

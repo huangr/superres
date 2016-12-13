@@ -145,6 +145,7 @@ def build_high_res(file_path, m, n, K, gamma, theta, shift, beta):
 		y_input = get_y(file_path, ind, m, K)
 		# N x N generate!
 		mu = compute_mu(m, n, K, gamma, theta, shift, beta, y_input)
+
 		for i in range(n):
 			for j in range(n):
 				high_res_img[ind[0]*n + i][ind[1]*n + j] = float(mu[i*n+j][0][0])
@@ -153,7 +154,7 @@ def build_high_res(file_path, m, n, K, gamma, theta, shift, beta):
 	print high_res_img
 	print np.asarray(high_res_img).ndim
 
-	plt.imshow(high_res_img, cmap='gray', interpolation='nearest', vmin=0, vmax=255)
+	plt.imshow(high_res_img, cmap='gray', interpolation='none', vmin=0, vmax=255)
 	plt.savefig('test.png')
 	plt.show()
 
@@ -163,5 +164,5 @@ theta = [1.53, 1.61, 1.58, 1.55, 1.53, 1.53, 1.59, 1.55, 1.5, 1.65, 1.63, 1.61, 
 theta = [t - math.pi / 2 for t in theta]
 s = [[12.2, -1.13], [15.3, -0.54], [14.55, -0.32], [15.48, -0.81], [10.61, -1.3], [9.81, -1.18], [13.83, -0.7], [13.77, -0.62], [10.04, -1.32], [13.02, -1.03], [13.96, -0.86], [12.22, -0.82], [13.53, -0.75], [6.48, -0.72], [-2.23, 0.73]]
 
-build_high_res(file_path, 4, 8, 15, gamma, theta, s, 400)
+build_high_res(file_path, 4, 8, 6, gamma, theta, s, 400)
 
