@@ -93,6 +93,16 @@ def define_variables(file_path, m, n, b):
 	
 	print "All variables have been generated! :)"
 
-	return (K, M, N, y, Zx, v_bar, vi, vj, beta)
+	data = {
+		'K': K
+		'M': M
+		'N': N 
+		'y': y 
+		'Zx': Zx 
+		'v_bar': v_bar
+		'vi': vi 
+		'vj': vj
+		'beta': beta
+	}
 
-define_variables(file_path, 15, 35, 400)
+	return data

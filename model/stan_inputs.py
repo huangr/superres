@@ -68,10 +68,10 @@ def define_variables(file_path, m, n, b):
 				center_coord = (dimensions[0]/2, dimensions[1]/2)
 				for i in range(-m/2, m/2):
 					for j in range(-m/2, m/2):
-						y[index].append(img[center_coord[0] + i][(center_coord[1] + j)])
+						y[index].append((img[center_coord[0] + i][(center_coord[1] + j)])/255.0-0.5)
 
 				index = index + 1
-				if index == 2:
+				if index == 15:
 					break
 	else:
 		print file_path, 'is not a directory.'
@@ -84,18 +84,23 @@ def define_variables(file_path, m, n, b):
 	print "We have used", K, "images."
 
 	for i in range(N):
-		vi[i] = [(i/math.sqrt(N))/(float(math.sqrt(N))-1.0), (i % N)/(float(math.sqrt(N))-1.0)]
-	for i in range(M):
-		vj[i] = [(i/math.sqrt(M))/(float(math.sqrt(M))-1.0), (i % M)/(float(math.sqrt(M))-1.0)]
-	v_bar = (0.5, 0.5)
+		vi[i] = [(i/int(math.sqrt(N)))+1, (i % int(math.sqrt(N)))+1]
 
+	upscale = float(n)/float(m)
+	begin = float(1+upscale)/2.
+	for i in range(m):
+		for j in range(m):
+			vj[i*m + j] = [i * upscale + begin, j * upscale + begin]
+	for i in range(N):
+		vi[i] = [(i/int(math.sqrt(N)))+1, (i % int(math.sqrt(N)))+1]
+	v_bar = (0.5, 0.5)
 	for i in range(N):
 		for j in range(N):
-			Zx[i][j] = 0.04 * math.exp(-np.linalg.norm(np.subtract(np.array(vi[i]), np.array(vi[j])))**2)
-	
+			Zx[i][j] = 0.04*math.exp((-np.linalg.norm(np.array(vi[i]) - np.array(vi[j]))**2))
 	print "All variables have been generated! :)"
 
 
+	print np.linalg.det(np.array(Zx))
 
 	data = {
 		'K': K,

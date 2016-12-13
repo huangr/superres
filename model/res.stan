@@ -46,7 +46,7 @@ transformed parameters {
   for (k in 1:K) {
     for (j in 1:M) {
       for (i in 1:N) {
-        W_tilde[k][j][i] = exp(-squared_distance(vi[i], u[k][j])/pow(gamma, 2));
+        W_tilde[k][j][i] = exp(-1.0*squared_distance(vi[i], u[k][j])/pow(gamma, 2));
       }
     }
   }
@@ -70,7 +70,6 @@ transformed parameters {
     }
   }
 
-  print(W[1]);
 
   # define sigma_interm (used to find sigma)
   sigma_interm = rep_matrix(0, N, N);
@@ -81,7 +80,6 @@ transformed parameters {
   # define sigma
   sigma = inverse(inverse(Zx) + beta*sigma_interm); 
 
-  print(sigma);
 
   # define mu_imterm (used to find mu)
   mu_interm = rep_vector(0, N);
@@ -91,18 +89,27 @@ transformed parameters {
 
   # define mu
   mu = beta * sigma * mu_interm;
-
-  print(mu);
 }
 
+# model {
+#   real likelihood;
+#   likelihood = 0;
+#   for (k in 1:K) {
+#     likelihood = likelihood + beta*squared_distance(y[k], W[k]*mu);
+#   }
+#   likelihood = likelihood + transpose(mu)*inverse(Zx)*mu;
+#   likelihood = likelihood + log(determinant(Zx)) - log(determinant(sigma)) - K*M*log(beta);
+#   likelihood = -0.5*likelihood;
+#   increment_log_prob(likelihood);
+# }
+
 model {
-  real likelihood;
-  likelihood = 0;
   for (k in 1:K) {
-    likelihood = likelihood + beta*squared_distance(y[k], W[k]*mu);
+    target += -0.5*beta*squared_distance(y[k], W[k]*mu);
   }
-  likelihood = likelihood + transpose(mu)*inverse(Zx)*mu;
-  likelihood = likelihood + log(determinant(Zx)) - log(determinant(sigma)) - K*M*log(beta);
-  likelihood = -0.5*likelihood;
+  target += -0.5*transpose(mu)*inverse(Zx)*mu;
+  target += -0.5*log(determinant(Zx));
+  target += 0.5*log(determinant(sigma));
+  target += 0.5*K*M*log(beta);
 }
 
