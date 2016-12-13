@@ -66,12 +66,16 @@ def normalize(img_array):
 	return new_array
 
 def normalize_2d(img_array):
-	mx = max([max(img_array[i]) for i in range(len(img_array))])
-	mi = min([min(img_array[i]) for i in range(len(img_array))])
+	total_array = []
+	for i in img_array:
+		total_array.extend(i)
+	mx = max(total_array)
+	mi = min(total_array)
+	total = mx - mi
 	new_array = [[None for j in range(len(img_array[i]))] for i in range(len(img_array))]
 	for i in range(len(img_array)):
 		for j in range(len(img_array[i])):
-			new_array[i][j] = (img_array[i][j] - mi) / total * 255
+			new_array[i][j] = float(img_array[i][j] - mi) / total * 255.0
 	return new_array
 
 def get_start_indices(row, col, m):
@@ -131,22 +135,23 @@ def build_high_res(file_path, m, n, K, gamma, theta, shift, beta):
 				dimensions = img.shape
 				break
 
-	# # Get start indices
-	# start_indices = get_start_indices(dimensions[0], dimensions[1], m)
-	# # Get the high resolution 
-	# high_res_img = [[0 for i in range(dimensions[1]/ m * n)] for j in range(dimensions[0] / m * n)]
+	# Get start indices
+	start_indices = get_start_indices(dimensions[0], dimensions[1], m)
+	# Get the high resolution 
+	high_res_img = [[0 for i in range(dimensions[1]/ m * n)] for j in range(dimensions[0] / m * n)]
 
-	# for ind in start_indices: 
-	# 	# M x M from top left of start_indices
-	# 	y_input = get_y(file_path, ind, m, K)
-	# 	# N x N generate!
-	# 	mu = compute_mu(m, n, K, gamma, theta, shift, beta, y_input)
-
-	# 	for i in range(n):
-	# 		for j in range(n):
-	# 			high_res_img[ind[0]*n + i][ind[1]*n + j] = mu[i*n+j]
+	for ind in start_indices: 
+		# M x M from top left of start_indices
+		y_input = get_y(file_path, ind, m, K)
+		# N x N generate!
+		mu = compute_mu(m, n, K, gamma, theta, shift, beta, y_input)
+		for i in range(n):
+			for j in range(n):
+				high_res_img[ind[0]*n + i][ind[1]*n + j] = float(mu[i*n+j][0][0])
 
 	high_res_img = normalize_2d(high_res_img)
+	print high_res_img
+	print np.asarray(high_res_img).ndim
 
 	plt.imshow(high_res_img, cmap='gray', interpolation='nearest', vmin=0, vmax=255)
 	plt.savefig('test.png')

@@ -127,10 +127,10 @@ def compute_mu(m, n, K, gamma, theta, shift, beta, y_sheet):
 	sigma = compute_sigma(m, n, K, gamma, theta, shift, beta)
 	W = compute_w(m, n, K, gamma, theta, shift)
 
-	total_matrix = np.matrix([[0 for i in range(K)] for j in range(n*n)])
+	total_matrix = np.matrix([0 for j in range(n*n)])
 	for k in range(K):
-		total_matrix = np.add(total_matrix, np.dot(np.transpose(np.matrix(W[k])), np.transpose(y_sheet)))
-	mu = beta * np.dot(sigma, total_matrix)
+		total_matrix = np.add(total_matrix, np.dot(np.transpose(np.matrix(W[k])), np.transpose(y_sheet[k])))
+	mu = beta * np.dot(sigma, np.transpose(total_matrix))
 
 	return mu
 
