@@ -83,9 +83,6 @@ def define_variables(file_path, m, n, b):
 	K = len(y)
 	print "We have used", K, "images."
 
-	for i in range(N):
-		vi[i] = [(i/int(math.sqrt(N)))+1, (i % int(math.sqrt(N)))+1]
-
 	upscale = float(n)/float(m)
 	begin = float(1+upscale)/2.
 	for i in range(m):
@@ -93,7 +90,7 @@ def define_variables(file_path, m, n, b):
 			vj[i*m + j] = [i * upscale + begin, j * upscale + begin]
 	for i in range(N):
 		vi[i] = [(i/int(math.sqrt(N)))+1, (i % int(math.sqrt(N)))+1]
-	v_bar = (0.5, 0.5)
+	v_bar = (math.sqrt(N)/2, math.sqrt(N)/2)
 	for i in range(N):
 		for j in range(N):
 			Zx[i][j] = 0.04*math.exp((-np.linalg.norm(np.array(vi[i]) - np.array(vi[j]))**2))

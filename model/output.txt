@@ -2,4 +2,113 @@
 y-values have been generated.
 We have used 15 images.
 All variables have been generated! :)
-2.86508602829e-55
+6.81010787923e-221
+WARNING: The initial buffer, adaptation window, and terminal buffer
+         overflow the total number of warmup iterations.
+         Defaulting to a 15%/75%/10% partition,
+           init_buffer = 7
+           adapt_window = 38
+           term_buffer = 5
+
+WARNING: The initial buffer, adaptation window, and terminal buffer
+         overflow the total number of warmup iterations.
+         Defaulting to a 15%/75%/10% partition,
+           init_buffer = 7
+           adapt_window = 38
+           term_buffer = 5
+
+Iteration:  1 / 100 [  1%]  (Warmup) (Chain 0)
+Iteration:  1 / 100 [  1%]  (Warmup) (Chain 1)
+Iteration: 10 / 100 [ 10%]  (Warmup) (Chain 0)
+Iteration: 10 / 100 [ 10%]  (Warmup) (Chain 1)
+Iteration: 20 / 100 [ 20%]  (Warmup) (Chain 1)
+Iteration: 20 / 100 [ 20%]  (Warmup) (Chain 0)
+Iteration: 30 / 100 [ 30%]  (Warmup) (Chain 1)
+Iteration: 30 / 100 [ 30%]  (Warmup) (Chain 0)
+Iteration: 40 / 100 [ 40%]  (Warmup) (Chain 0)
+Iteration: 40 / 100 [ 40%]  (Warmup) (Chain 1)
+Iteration: 50 / 100 [ 50%]  (Warmup) (Chain 1)
+Iteration: 51 / 100 [ 51%]  (Sampling) (Chain 1)
+Iteration: 50 / 100 [ 50%]  (Warmup) (Chain 0)
+Iteration: 51 / 100 [ 51%]  (Sampling) (Chain 0)
+Iteration: 60 / 100 [ 60%]  (Sampling) (Chain 1)
+Iteration: 60 / 100 [ 60%]  (Sampling) (Chain 0)
+Iteration: 70 / 100 [ 70%]  (Sampling) (Chain 1)
+Iteration: 70 / 100 [ 70%]  (Sampling) (Chain 0)
+Iteration: 80 / 100 [ 80%]  (Sampling) (Chain 1)
+Iteration: 80 / 100 [ 80%]  (Sampling) (Chain 0)
+Iteration: 300 / 1000 [ 30%]  (Warmup) (Chain 3)
+Iteration: 90 / 100 [ 90%]  (Sampling) (Chain 1)
+Iteration: 90 / 100 [ 90%]  (Sampling) (Chain 0)
+Iteration: 100 / 100 [100%]  (Sampling) (Chain 1)
+# 
+#  Elapsed Time: 235.316 seconds (Warm-up)
+#                216.459 seconds (Sampling)
+#                451.775 seconds (Total)
+# 
+Iteration: 100 / 100 [100%]  (Sampling) (Chain 0)
+# 
+#  Elapsed Time: 249.982 seconds (Warm-up)
+#                227.067 seconds (Sampling)
+#                477.048 seconds (Total)
+# 
+Iteration: 400 / 1000 [ 40%]  (Warmup) (Chain 3)
+Iteration: 200 / 1000 [ 20%]  (Warmup) (Chain 2)
+Iteration: 500 / 1000 [ 50%]  (Warmup) (Chain 3)
+Iteration: 501 / 1000 [ 50%]  (Sampling) (Chain 3)
+Iteration: 600 / 1000 [ 60%]  (Sampling) (Chain 3)
+Iteration: 300 / 1000 [ 30%]  (Warmup) (Chain 2)
+Iteration: 100 / 1000 [ 10%]  (Warmup) (Chain 0)
+Iteration: 700 / 1000 [ 70%]  (Sampling) (Chain 3)
+Iteration: 400 / 1000 [ 40%]  (Warmup) (Chain 2)
+Iteration: 800 / 1000 [ 80%]  (Sampling) (Chain 3)
+Iteration: 900 / 1000 [ 90%]  (Sampling) (Chain 3)
+Iteration: 200 / 1000 [ 20%]  (Warmup) (Chain 0)
+Iteration: 100 / 1000 [ 10%]  (Warmup) (Chain 1)
+Iteration: 500 / 1000 [ 50%]  (Warmup) (Chain 2)
+Iteration: 501 / 1000 [ 50%]  (Sampling) (Chain 2)
+Iteration: 1000 / 1000 [100%]  (Sampling) (Chain 3)
+# 
+#  Elapsed Time: 12088.3 seconds (Warm-up)
+#                1805.7 seconds (Sampling)
+#                13894 seconds (Total)
+# 
+Iteration: 300 / 1000 [ 30%]  (Warmup) (Chain 0)
+Iteration: 200 / 1000 [ 20%]  (Warmup) (Chain 1)
+Iteration: 600 / 1000 [ 60%]  (Sampling) (Chain 2)
+Iteration: 400 / 1000 [ 40%]  (Warmup) (Chain 0)
+Iteration: 300 / 1000 [ 30%]  (Warmup) (Chain 1)
+Iteration: 700 / 1000 [ 70%]  (Sampling) (Chain 2)
+Iteration: 500 / 1000 [ 50%]  (Warmup) (Chain 0)
+Iteration: 501 / 1000 [ 50%]  (Sampling) (Chain 0)
+Iteration: 400 / 1000 [ 40%]  (Warmup) (Chain 1)
+Iteration: 600 / 1000 [ 60%]  (Sampling) (Chain 0)
+Iteration: 800 / 1000 [ 80%]  (Sampling) (Chain 2)
+Iteration: 500 / 1000 [ 50%]  (Warmup) (Chain 1)
+Iteration: 501 / 1000 [ 50%]  (Sampling) (Chain 1)
+Iteration: 700 / 1000 [ 70%]  (Sampling) (Chain 0)
+Iteration: 900 / 1000 [ 90%]  (Sampling) (Chain 2)
+Iteration: 800 / 1000 [ 80%]  (Sampling) (Chain 0)
+Iteration: 600 / 1000 [ 60%]  (Sampling) (Chain 1)
+Iteration: 900 / 1000 [ 90%]  (Sampling) (Chain 0)
+Iteration: 1000 / 1000 [100%]  (Sampling) (Chain 2)
+# 
+#  Elapsed Time: 13872.4 seconds (Warm-up)
+#                2511.09 seconds (Sampling)
+#                16383.5 seconds (Total)
+# 
+Iteration: 700 / 1000 [ 70%]  (Sampling) (Chain 1)
+Iteration: 1000 / 1000 [100%]  (Sampling) (Chain 0)
+# 
+#  Elapsed Time: 14808.7 seconds (Warm-up)
+#                1821.76 seconds (Sampling)
+#                16630.4 seconds (Total)
+# 
+Iteration: 800 / 1000 [ 80%]  (Sampling) (Chain 1)
+Iteration: 900 / 1000 [ 90%]  (Sampling) (Chain 1)
+Iteration: 1000 / 1000 [100%]  (Sampling) (Chain 1)
+# 
+#  Elapsed Time: 15369.5 seconds (Warm-up)
+#                1971.52 seconds (Sampling)
+#                17341 seconds (Total)
+# 
