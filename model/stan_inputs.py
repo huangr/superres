@@ -32,7 +32,7 @@ to form a 35x35 final image, and perform the mu transformations over all y.
 
 """
 
-file_path = "/Users/rickh/Dropbox/MIT/6.867/867_project/datasets/grayscale/alpaca"
+file_path = "/Users/rickh/Dropbox/MIT/6.867/867_project/datasets/grayscale/face1"
 
 # Defines the relevant variables given a file_path to a directory of
 # low resolution images 

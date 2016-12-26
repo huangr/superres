@@ -15,7 +15,6 @@ import array
 import math
 from calc_params import *
 
-file_path = "/Users/rickh/Dropbox/MIT/6.867/867_project/datasets/grayscale/alpaca"
 
 # Get the initial center square of an image
 def get_original_center(file_path, m, n, b):
@@ -159,10 +158,12 @@ def build_high_res(file_path, m, n, K, gamma, theta, shift, beta):
 	plt.show()
 
 # img_print(get_original_center(file_path, 3, 5, 400), 3, 3)
-gamma = 1.1
-theta = [1.53, 1.61, 1.58, 1.55, 1.53, 1.53, 1.59, 1.55, 1.5, 1.65, 1.63, 1.61, 1.59, 1.46, 1.58]
+# file_path = "/Users/rickh/Dropbox/MIT/6.867/867_project/datasets/grayscale/alpaca"
+file_path = "/Users/rickh/Dropbox/MIT/6.867/867_project/datasets/grayscale/alpaca"
+gamma = 1.3e10
+theta = [1.5e10, 5.3e10, 5.9e9, -2.5e10, -5.8e10, 1.7e10, 4.8e10, 8.2e10, -8.8e10, -1.6e10, 3.0e10, 7.7e10, -2.0e10, -3.6e10, -2.5e10]
 theta = [t - math.pi / 2 for t in theta]
-s = [[12.2, -1.13], [15.3, -0.54], [14.55, -0.32], [15.48, -0.81], [10.61, -1.3], [9.81, -1.18], [13.83, -0.7], [13.77, -0.62], [10.04, -1.32], [13.02, -1.03], [13.96, -0.86], [12.22, -0.82], [13.53, -0.75], [6.48, -0.72], [-2.23, 0.73]]
+s = [[1.9e10, -7.8e10], [-2.1e9, 5.2e10], [-6.5e9, 2.4e9], [-4.1e10, 2.4e9], [2.2e10, -4.6e10], [-1.3e11, 1.1e11], [-5.2e10, -2.1e10], [-4.5e10, 5.4e9], [2.2e9, 3.2e10], [-1.2e10, -2.7e8], [-3.0e10, 4.7e10], [4.7e10, -1.1e10], [6.1e10, -5.3e10], [-1.5e10, 1.1e10], [-4.3e10, -7.2e10]]
 
 build_high_res(file_path, 4, 8, 6, gamma, theta, s, 400)
 
